@@ -101,7 +101,7 @@ def main():
             app_id = on_res.get('appId') or app_id
             print("[+] Session verified and activated.")
         else:
-            print(f"[!] Warning: onLine activation returned code {on_resp.get('code')}, continuing anyway.")
+            print(f"[!] Warning: onLine activation returned code {on_res.get('code')}, continuing anyway.")
     except Exception:
         pass
 
