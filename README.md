@@ -32,7 +32,7 @@ Usage
     Run the script:
 
 ```Bash
-    python get_unicom_token.py
+    python token.py
     Enter your 11-digit China Unicom mobile number.
 ```
 
